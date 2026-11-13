@@ -1,0 +1,360 @@
+1. Qui va crear el llenguatge Java?
+
+A. Bill Gates
+B. James Gosling
+C. Mark Zuckerberg
+D. Steve Jobs
+Resposta correcta: B
+2. Quina extensió té un fitxer Java?
+
+A. .js
+B. .html
+C. .java
+D. .py
+Resposta correcta: C
+3. Quin mètode permet iniciar un programa Java?
+
+A. start()
+B. main()
+C. run()
+D. begin()
+Resposta correcta: B
+4. Quina paraula clau permet declarar una classe en Java?
+
+A. function
+B. class
+C. define
+D. object
+Resposta correcta: B
+5. Quina ordre permet compilar un fitxer Java?
+
+A. java
+B. compile
+C. javac
+D. run
+Resposta correcta: C
+6. Quin tipus de dada permet guardar nombres enters?
+
+A. String
+B. int
+C. boolean
+D. char
+Resposta correcta: B
+7. Quin tipus de dada permet guardar text?
+
+A. int
+B. double
+C. String
+D. float
+Resposta correcta: C
+8. Quin valor representa cert en Java?
+
+A. yes
+B. true
+C. 1
+D. correct
+Resposta correcta: B
+9. Quin símbol acaba normalment una instrucció Java?
+
+A. :
+B. .
+C. ;
+D. ,
+Resposta correcta: C
+10. Quina instrucció permet mostrar un text a la consola?
+
+A. Console.write()
+B. System.out.println()
+C. print.console()
+D. echo()
+Resposta correcta: B
+Part 2: Variables i operadors
+11. Quin tipus de dada permet guardar nombres decimals?
+
+A. int
+B. boolean
+C. double
+D. char
+Resposta correcta: C
+12. Quin operador serveix per sumar?
+
+A. -
+B. +
+C. *
+D. /
+Resposta correcta: B
+13. Quin operador serveix per comparar si dos valors són iguals?
+
+A. =
+B. ==
+C. !=
+D. >=
+Resposta correcta: B
+14. Quin operador representa el «I» lògic?
+
+A. ||
+B. !
+C. &&
+D. ==
+Resposta correcta: C
+15. Quina paraula clau permet declarar una constant?
+
+A. static
+B. final
+C. const
+D. constant
+Resposta correcta: B
+16. Quin és el resultat de 10 % 3?
+
+A. 3
+B. 1
+C. 0
+D. 2
+Resposta correcta: B
+17. Quin tipus de dada permet guardar un únic caràcter?
+
+A. String
+B. char
+C. int
+D. boolean
+Resposta correcta: B
+18. Quin és el valor per defecte d'un atribut boolean d'una classe?
+
+A. true
+B. 1
+C. false
+D. null
+Resposta correcta: C
+19. Quin operador permet incrementar una variable en 1?
+
+A. --
+B. ++
+C. +=2
+D. **
+Resposta correcta: B
+20. Quin és el resultat de 5 + 3 * 2?
+
+A. 16
+B. 13
+C. 11
+D. 10
+Resposta correcta: C
+Part 3: Condicions i bucles
+21. Quina paraula clau permet crear una condició?
+
+A. when
+B. if
+C. check
+D. condition
+Resposta correcta: B
+22. Quina paraula clau permet definir una alternativa després d'un if?
+
+A. else
+B. other
+C. otherwise
+D. next
+Resposta correcta: A
+23. Quin bucle repeteix un codi mentre una condició sigui certa?
+
+A. if
+B. while
+C. switch
+D. case
+Resposta correcta: B
+24. Quin bucle s'utilitza habitualment quan sabem el nombre de repeticions?
+
+A. if
+B. while
+C. for
+D. switch
+Resposta correcta: C
+25. Quina paraula clau permet sortir immediatament d'un bucle?
+
+A. stop
+B. exit
+C. break
+D. return
+Resposta correcta: C
+26. Quina paraula clau permet passar directament a la següent iteració d'un bucle?
+
+A. skip
+B. continue
+C. next
+D. pass
+Resposta correcta: B
+27. Quina estructura permet escollir entre diverses opcions?
+
+A. switch
+B. while
+C. for
+D. try
+Resposta correcta: A
+28. Quantes vegades s'executa aquest bucle?
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+
+
+A. 4 vegades
+B. 5 vegades
+C. 6 vegades
+D. 10 vegades
+Resposta correcta: B
+29. Quin és el resultat d'aquesta condició?
+10 > 5
+
+
+A. false
+B. null
+C. true
+D. 0
+Resposta correcta: C
+30. Quin bucle s'executa almenys una vegada encara que la condició sigui falsa?
+
+A. for
+B. while
+C. do while
+D. foreach
+Resposta correcta: C
+Part 4: Programació orientada a objectes (POO)
+31. Què significa POO?
+
+A. Programació Orientada a Objectes
+B. Programa Organitzat Obert
+C. Programació Optimitzada Ordinària
+D. Protocol Orientat a Ordinadors
+Resposta correcta: A
+32. Què és una classe en Java?
+
+A. Un bucle
+B. Un model per crear objectes
+C. Una variable
+D. Una condició
+Resposta correcta: B
+33. Què és un objecte?
+
+A. Una instància d'una classe
+B. Un mètode
+C. Un bucle
+D. Un operador
+Resposta correcta: A
+34. Quina paraula clau permet crear un objecte?
+
+A. class
+B. create
+C. new
+D. object
+Resposta correcta: C
+35. Quina paraula clau permet heretar d'una altra classe?
+
+A. implements
+B. extends
+C. inherits
+D. super
+Resposta correcta: B
+36. Quina paraula clau permet implementar una interfície?
+
+A. extends
+B. implements
+C. interface
+D. inherit
+Resposta correcta: B
+37. Quina és la funció d'un constructor?
+
+A. Eliminar una classe
+B. Inicialitzar un objecte
+C. Aturar un programa
+D. Compilar un fitxer
+Resposta correcta: B
+38. Quina paraula clau permet fer referència a l'objecte actual?
+
+A. this
+B. self
+C. current
+D. object
+Resposta correcta: A
+39. Quin modificador permet que un atribut només sigui accessible dins de la seva classe?
+
+A. public
+B. protected
+C. private
+D. static
+Resposta correcta: C
+40. Quin concepte permet tenir diversos mètodes amb el mateix nom però amb paràmetres diferents?
+
+A. Herència
+B. Encapsulació
+C. Sobrecàrrega (Overloading)
+D. Abstracció
+Resposta correcta: C
+Part 5: Excepcions i conceptes avançats
+41. Quina paraula clau permet gestionar una possible excepció?
+
+A. try
+B. check
+C. error
+D. catcher
+Resposta correcta: A
+42. Quin bloc s'utilitza per capturar una excepció?
+
+A. finally
+B. catch
+C. throw
+D. throws
+Resposta correcta: B
+43. Quina paraula clau permet llançar una excepció manualment?
+
+A. throws
+B. catch
+C. throw
+D. exception
+Resposta correcta: C
+44. Quina paraula clau permet indicar que un mètode pot llançar una excepció?
+
+A. throw
+B. throws
+C. try
+D. finally
+Resposta correcta: B
+45. Quina és la funció del bloc finally?
+
+A. S'executa només si apareix un error
+B. S'executa normalment després dels blocs try i catch
+C. Atura el programa
+D. Crea una excepció
+Resposta correcta: B
+46. Quina paraula clau permet declarar un mètode que pertany a la classe i no a una instància?
+
+A. private
+B. final
+C. static
+D. public
+Resposta correcta: C
+47. Quina classe permet treballar amb llistes dinàmiques en Java?
+
+A. ArrayList
+B. Scanner
+C. String
+D. Integer
+Resposta correcta: A
+48. En quin paquet es troba la classe Scanner?
+
+A. java.io
+B. java.util
+C. java.lang
+D. java.net
+Resposta correcta: B
+49. Quina paraula clau impedeix que una classe pugui ser heretada?
+
+A. static
+B. private
+C. final
+D. abstract
+Resposta correcta: C
+50. Què significa JVM?
+
+A. Java Variable Method
+B. Java Virtual Machine
+C. Java Visual Model
+D. Java Version Manager
+Resposta correcta: B

@@ -125,7 +125,7 @@ public class Main {
                                             System.out.println("Resposta incorrecta, la resposta correcta és: " + resposta[i]);
                                     }
                             } else {
-                                    System.out.println("Resposta no vàlida: a,b,c,d");
+                                    System.out.println("Resposta no vàlida, torna a escriure la resposta: a,b,c,d");
                             }
                     } while (!(respostauser.equalsIgnoreCase("a") || respostauser.equalsIgnoreCase("b") || respostauser.equalsIgnoreCase("c") || respostauser.equalsIgnoreCase("d")));
             }

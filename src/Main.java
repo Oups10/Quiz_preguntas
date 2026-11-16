@@ -7,6 +7,7 @@ public class Main {
         String [][] opcions = new String[preguntes.length][4];
         String [] resposta = new String [preguntes.length];
         String respostauser;
+        int usercorrectes = 0;
 
         for (int i = 0; i< preguntes.length; i++){
             System.out.println(preguntes[i]);
@@ -18,6 +19,7 @@ public class Main {
                 if (respostauser.equalsIgnoreCase("a") || respostauser.equalsIgnoreCase("b") || respostauser.equalsIgnoreCase("c") || respostauser.equalsIgnoreCase("d")) {
                     if (respostauser.equalsIgnoreCase(resposta[i])) {
                         System.out.println("Resposta correcta");
+                        usercorrectes ++;
                     } else {
                         System.out.println("Resposta incorrecta, la resposta correcta és: " + resposta[i]);
                     }
@@ -26,5 +28,6 @@ public class Main {
                 }
             } while (!(respostauser.equalsIgnoreCase("a") || respostauser.equalsIgnoreCase("b") || respostauser.equalsIgnoreCase("c") || respostauser.equalsIgnoreCase("d")));
         }
+        System.out.println("En tot el quiz has respost " + usercorrectes + "preguntes correctes.");
     }
 }

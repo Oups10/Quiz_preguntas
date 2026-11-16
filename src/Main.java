@@ -108,10 +108,5 @@ public class Main {
 
         String[] resposta = {"B", "C", "B", "B", "C", "B", "C", "B", "C", "B", "C", "B", "B", "C", "B", "B", "B", "C", "B", "C", "B", "A", "B", "C", "C", "B", "A", "B", "C", "C", "A", "B", "A", "C", "B", "B", "B", "A", "C", "C", "A", "B", "C", "B", "B", "C", "A", "B", "C", "B"};
 
-
-
-
-        }
-
     }
 }

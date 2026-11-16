@@ -4,6 +4,6 @@ public class Main {
         String [] preguntes = new String[50];
         String [][] opcions = new String[preguntes.length][4];
         char [][] charopcions = new char[preguntes.length][4];
-        char [] resposta = new char [50];
+        char [] resposta = new char [preguntes.length];
     }
 }

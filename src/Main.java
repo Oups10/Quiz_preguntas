@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         String [] preguntes = new String[50];
         String [][] opcions = new String[preguntes.length][4];
         preguntes[0] = "Qui va crear el llenguatge Java?";
@@ -107,6 +108,24 @@ public class Main {
 
 
         String[] resposta = {"B", "C", "B", "B", "C", "B", "C", "B", "C", "B", "C", "B", "B", "C", "B", "B", "B", "C", "B", "C", "B", "A", "B", "C", "C", "B", "A", "B", "C", "C", "A", "B", "A", "C", "B", "B", "B", "A", "C", "C", "A", "B", "C", "B", "B", "C", "A", "B", "C", "B"};
+
+        for (int i = 0; i < preguntes.length; i++) {
+            System.out.println("pregunta "+ (i+1) + ": " );
+            System.out.println( preguntes[i] );
+            for (int j = 0; j < 4; j++) {
+                System.out.println(opcions[i][j]);
+
+            }
+            String respostauser = input.nextLine();
+            while(!respostauser.equalsIgnoreCase("A")&& !respostauser.equalsIgnoreCase("B")&& !respostauser.equalsIgnoreCase("C")&& !respostauser.equalsIgnoreCase("D")) {
+                System.out.println("REPUESTA NO VALIDA IDIOTA! TORNA A PROVAR :");
+                respostauser = input.nextLine();
+            }
+            if(respostauser.equalsIgnoreCase(resposta[i])) {
+                System.out.println("REPUESTA CORRECTA CRACK!");
+            }else  {
+                System.out.println("REPUESTA INCORRECTA! IDIOTA! LA REPUESTA CORRECTA ES : "+resposta[i]);
+            }
 
 
 
